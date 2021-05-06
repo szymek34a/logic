@@ -12,6 +12,14 @@ public class Main {
  		int a = 5;
  	    Test.zwieksz(a);
  	    System.out.println(a);
+ 	    
+		Punkt punkt = new Punkt();
+		punkt.x = 5;
+		punkt.y = 5;
+
+		Test.zmien(punkt);
+
+		System.out.println("Wspó³rzêdne to: " + punkt.x + " " + punkt.y);
 		
 	}
 	
