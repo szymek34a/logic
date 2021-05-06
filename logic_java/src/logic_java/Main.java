@@ -4,9 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Punkty punkty = new Punkty();
-		punkty.wspX = 3;
-		punkty.wspY = 5;
+		Punkty punkty = new Punkty(10,20);
 		
 		Test.zmien(punkty);
 		
@@ -15,6 +13,10 @@ public class Main {
 		int a = 5;
 		Test.zwieksz(a);
 		System.out.println(a);
+		
+		System.out.println("Wspó³rzêdne to:");
+		System.out.println("x: " + punkty.wspX);
+		System.out.println("y: " + punkty.wspY);
 	}
 
 	void metoda1() {
