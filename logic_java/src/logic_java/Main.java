@@ -10,5 +10,17 @@ public class Main {
  		System.out.println("Wspó³rzêdne to: ("+ punkt.dajX() + ", "+ punkt.dajY() +")");
 		
 	}
+	
+	void metoda1() {
+		System.out.println("Ta metoda nic nie zwraca, ale wyœwietla ten tekst");
+	}
+
+	int metoda2() {
+		return 2;
+	}
+
+	String metoda3() {
+		return "Jakis napis";
+	}
 
 }
