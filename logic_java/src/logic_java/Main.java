@@ -22,5 +22,18 @@ public class Main {
 	String metoda3() {
 		return "Jakis napis";
 	}
+	
+	String metodaNapis(String str) {
+		System.out.println(str);
+		return str;
+	}
+
+	int sumaLiczb(int a, int b, int c) {
+		return a + b + c;
+	}
+
+	double sumaLiczb2(int a, short b, double c) {
+		return a + b + c;
+	}
 
 }
