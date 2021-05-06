@@ -8,6 +8,10 @@ public class Main {
 		punkt.ustawX(10);
  		punkt.ustawY(20);
  		System.out.println("Wspó³rzêdne to: ("+ punkt.dajX() + ", "+ punkt.dajY() +")");
+ 		
+ 		int a = 5;
+ 	    Test.zwieksz(a);
+ 	    System.out.println(a);
 		
 	}
 	
