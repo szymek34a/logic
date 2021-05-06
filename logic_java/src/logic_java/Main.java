@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Punkty punkty = new Punkty();
-		punkty.wspX = 5;
+		punkty.wspX = 3;
 		punkty.wspY = 5;
 		
 		Test.zmien(punkty);
