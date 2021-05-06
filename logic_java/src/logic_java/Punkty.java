@@ -12,4 +12,11 @@ public class Punkty {
 		wspY = y;
 	}
 	
+	int dajX() {
+		return wspX;
+	}
+	
+	int dajY() {
+		return wspY;
+	}
 }
