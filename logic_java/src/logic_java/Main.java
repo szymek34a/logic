@@ -7,7 +7,7 @@ public class Main {
 		Punkty punkty = new Punkty();
 		punkty.wspX = 10;
 		punkty.wspY = 20;
-		
+		System.out.println("Wspó³rzêdne punktu to (" + punkty.wspX + ", " + punkty.wspY + ")");
 	}
-
+	
 }
