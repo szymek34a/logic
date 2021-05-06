@@ -4,8 +4,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Punkty punkty = new Punkty(10,20);
-		
+		Punkty punkty = new Punkty();
+		punkty.wspX = 3;
+		punkty.wspY = 5;
+
 		Test.zmien(punkty);
 		
 		System.out.println("Wspó³rzêdne punktu to (" + punkty.dajX() + ", " + punkty.dajY() + ")");
@@ -14,9 +16,15 @@ public class Main {
 		Test.zwieksz(a);
 		System.out.println(a);
 		
-		System.out.println("Wspó³rzêdne to:");
-		System.out.println("x: " + punkty.wspX);
-		System.out.println("y: " + punkty.wspY);
+		Punkty punkty1 = new Punkty(10,20);
+		System.out.println("Wspó³rzêdne 1 to:");
+		System.out.println("x1: " + punkty1.wspX);
+		System.out.println("y1: " + punkty1.wspY);
+		
+		Punkty punkty2 = new Punkty(punkty1);
+		System.out.println("Wspó³rzêdne 1 to:");
+		System.out.println("x2: " + punkty2.wspX);
+		System.out.println("y2: " + punkty2.wspY);
 	}
 
 	void metoda1() {
