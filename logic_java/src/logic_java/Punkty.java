@@ -1,6 +1,6 @@
 package logic_java;
 
-public class Punkty {
+class Punkty {
 	int wspX;
 	int wspY;
 	
@@ -18,5 +18,10 @@ public class Punkty {
 	
 	int dajY() {
 		return wspY;
+	}
+	
+	public Punkty(int a, int b) {
+		wspX = a;
+		wspY = b;
 	}
 }
