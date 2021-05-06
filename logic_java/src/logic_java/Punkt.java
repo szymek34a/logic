@@ -12,6 +12,14 @@ public class Punkt {
 		y = b;
 	}
 
+	public Punkt() {
+	}
+
+	public Punkt(Punkt pkt) {
+		x = pkt.x;
+		y = pkt.y;
+	}
+
 	void ustawX(int x) {
 		wspX = x;
 	}
