@@ -8,6 +8,10 @@ public class Main {
 		punkty.ustawX(10);
 		punkty.ustawY(20);
 		System.out.println("Wspó³rzêdne punktu to (" + punkty.dajX() + ", " + punkty.dajY() + ")");
+		
+		int a = 5;
+		Test.zwieksz(a);
+		System.out.println(a);
 	}
 
 	void metoda1() {
@@ -34,5 +38,4 @@ public class Main {
 	double sumaLiczb2(int a, short b, double c) {
 		return a + b + c;
 	}
-
 }
