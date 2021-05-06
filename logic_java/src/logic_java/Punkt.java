@@ -11,6 +11,11 @@ public class Punkt {
 		x = a;
 		y = b;
 	}
+	
+	public void setPunkt(int a, int b) {
+		x = a;
+		y = b;
+	}
 
 	public Punkt() {
 	}
