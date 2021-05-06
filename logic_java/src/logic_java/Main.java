@@ -4,14 +4,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Punkt punkt = new Punkt();
-		punkt.x = 3;
-		punkt.y = 5;
+		Punkt punkt = new Punkt(10, 20);
+		System.out.println("Wspó³rzêdne to: ");
+		System.out.println("x: " + punkt.x);
+		System.out.println("y: " + punkt.y);
 
-		Test.zmien(punkt);
-
-		System.out.println("Wspó³rzêdne to: " + punkt.x + " " + punkt.y);
- 	    
+		int a = 5;
+		Test.zwieksz(a);
+		System.out.println(a);
+		
 	}
 	
 	void metoda1() {
