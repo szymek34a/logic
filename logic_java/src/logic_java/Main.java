@@ -5,8 +5,11 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Punkty punkty = new Punkty();
-		punkty.ustawX(10);
-		punkty.ustawY(20);
+		punkty.wspX = 5;
+		punkty.wspY = 5;
+		
+		Test.zmien(punkty);
+		
 		System.out.println("Wspó³rzêdne punktu to (" + punkty.dajX() + ", " + punkty.dajY() + ")");
 		
 		int a = 5;
