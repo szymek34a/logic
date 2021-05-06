@@ -14,7 +14,7 @@ public class Main {
  	    System.out.println(a);
  	    
 		Punkt punkt = new Punkt();
-		punkt.x = 5;
+		punkt.x = 3;
 		punkt.y = 5;
 
 		Test.zmien(punkt);
